@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Project</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../build/css/style.min.css">
 </head>
 <body>
-    <h1>Document</h1>
+    <header>
+        <div class="menu-container">
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <div class="menu-container-items">
+                <input id="close-menu-hamburguer" type="checkbox" checked />
+                <label for="close-menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <div class="sign-in">
+                    <a href="#">Faça seu login</a>
+                </div>
+            </div>
+        </div>
+        <div class="logo home">
+            <a href="/" alt="Interativo curso e colégio">
+                <img src="../assets/img/logo-test.png" loading="lazy" alt="logo test">
+            </a>
+        </div>
+    </header>
 
     <script src="../build/js/script.min.js"></script>
 </body>
