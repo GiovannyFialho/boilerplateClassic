@@ -34,6 +34,12 @@
                 z-index: 2;
                 transition: all .2s ease-in-out;
                 box-shadow: 1px 0px 10px #333;
+                @media (max-width: $tablet) {
+                    width: 75%;
+                }
+                @media (max-width: $mobile) {
+                    width: 100%;
+                }
                 label[for="close-menu-hamburguer"] {
                     position: absolute;
                     top: 20px;
