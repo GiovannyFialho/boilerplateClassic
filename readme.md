@@ -8,7 +8,7 @@
 yarn
 ```
 
-## Recommended for a better experience, install the following extensions for VScode:
+## Recommended for a better experience, install the following extensions for VSCode:
 
 -   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter
 -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
